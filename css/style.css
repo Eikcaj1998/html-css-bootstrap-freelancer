@@ -8,7 +8,9 @@
 .bg-1C83C1{background-color: #1C83C1;}
 .bg-3a546d{background-color: #0E38B5;}
 .bg-CCB2A3{background-color: #CCB2A3;}
-
+/* text color */
+.color-1abc9c{color: #1abc9c;}
+/* star with line */
 .line::before,
 .line::after {
     content: '';
@@ -19,8 +21,10 @@
     vertical-align: middle;
     margin:10px;
 }
-
+#contact-me .line::after,
+#contact-me .line::before,
 #portfolio .line::after,
 #portfolio .line::before {
     background-color: #000;
 }
+
